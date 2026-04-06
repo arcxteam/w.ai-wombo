@@ -16,10 +16,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # Install Node.js
-echo "Installing Node.js v22.18.0 (LTS)..."
-nvm install 22.18.0
-nvm use 22.18.0
-nvm alias default 22.18.0
+echo "Installing Node.js v22.22.0 (LTS)..."
+nvm install 22.22.0
+nvm use 22.22.0
+nvm alias default 22.22.0
 
 echo "Verifying Node.js and npm installation..."
 node -v
